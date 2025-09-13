@@ -1,0 +1,31 @@
+/* Estilos específicos para configuración */
+.nav-link {
+    color: #495057;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.nav-link.active {
+    background-color: rgba(18, 143, 139, 0.1);
+    color: #128f8b;
+    font-weight: 500;
+}
+
+.nav-link:hover:not(.active) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.list-group-item-action {
+    transition: all 0.3s ease;
+}
+
+.list-group-item-action:hover {
+    background-color: rgba(18, 143, 139, 0.1);
+    padding-left: 1.5rem;
+}
+
+.user-avatar {
+    border: 3px solid #128f8b;
+    padding: 0.25rem;
+}

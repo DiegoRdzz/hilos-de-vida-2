@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hilos de Vida - Video Tutoriales</title>
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="assets/fontawesome-free-6.7.2-web/css/all.css">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet">
+        <!-- Core CSS -->
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+
+    <body id="page-top">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/logo2.png" alt="Logo" width="31" height="38" class="d-inline-block align-text-top">
+                    Hilos de Vida
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html#funcion">¿Cómo funciona?</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#beneficios">Beneficios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#contacto">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="producto.html">Comprar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="inicio-sesion.html"><i class="fa-solid fa-user"></i> Iniciar Sesión</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Videos Section -->
+        <section class="page-section bg-light" style="padding: 7rem 0 3rem;">
+            <div class="container">
+                <h2 class="text-center mb-5 fw-bold">Video Tutoriales</h2>
+                <div class="divider-custom mb-5">
+                    <div class="divider-custom-line" style="background-color: #128f8b;"></div>
+                    <div class="divider-custom-icon"><img src="assets/img/logo3.png" width="31" height="38" alt=""></div>
+                    <div class="divider-custom-line" style="background-color: #128f8b;"></div>
+                </div>
+
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <!-- Video 1 -->
+                    <div class="col">
+                        <div class="card video-card shadow-sm border-0 h-100">
+                            <div class="card-img-top video-thumbnail position-relative">
+                                <img src="assets/img/videos/instalacion.jpg" class="img-fluid" alt="Instalación">
+                                <div class="video-play-btn">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Instalación del dispositivo</h5>
+                                <p class="card-text text-muted">Aprende a configurar tu dispositivo en 5 minutos</p>
+                                <small class="text-muted">Duración: 4:15</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Video 2 -->
+                    <div class="col">
+                        <div class="card video-card shadow-sm border-0 h-100">
+                            <div class="card-img-top video-thumbnail position-relative">
+                                <img src="assets/img/videos/configuracion.jpg" class="img-fluid" alt="Configuración">
+                                <div class="video-play-btn">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Configuración de alertas</h5>
+                                <p class="card-text text-muted">Personaliza tus contactos de emergencia</p>
+                                <small class="text-muted">Duración: 6:30</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Video 3 -->
+                    <div class="col">
+                        <div class="card video-card shadow-sm border-0 h-100">
+                            <div class="card-img-top video-thumbnail position-relative">
+                                <img src="assets/img/videos/mantenimiento.jpg" class="img-fluid" alt="Mantenimiento">
+                                <div class="video-play-btn">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Mantenimiento preventivo</h5>
+                                <p class="card-text text-muted">Cómo cuidar tu dispositivo</p>
+                                <small class="text-muted">Duración: 3:45</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Modal -->
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="ratio ratio-16x9">
+                            <iframe id="videoFrame" width="560" height="315" 
+                            src="https://www.youtube.com/embed/Quk8CNE9Dmw?si=a4fXthFfZVXMKpvk" 
+                            title="YouTube video player" frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer bg-secondary text-white text-center py-4">
+            <div class="container">
+                <small class="text-white">&copy; Hilos de Vida 2025 | 
+                    <a href="#" class="text-white text-decoration-none">Políticas de Privacidad</a>
+                </small>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="css/bootstrap.bundle.min.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const videoCards = document.querySelectorAll('.video-card');
+                const videoModal = new bootstrap.Modal(document.getElementById('videoModal'));
+                const videoFrame = document.getElementById('videoFrame');
+
+                // Video Data (podría venir de una API)
+                const videos = {
+                    1: 'https://www.youtube.com/embed/Quk8CNE9Dmw?si=a4fXthFfZVXMKpvk',
+                    2: 'https://www.youtube.com/embed/iReoQzBaRhs?si=aa_rQyMAcYlSfJJL',
+                    3: 'https://www.youtube.com/embed/ejemplo3'
+                };
+
+                videoCards.forEach((card, index) => {
+                    card.addEventListener('click', () => {
+                        videoFrame.src = videos[index + 1] + '?autoplay=1';
+                        videoModal.show();
+                    });
+                });
+
+                // Limpiar iframe al cerrar modal
+                videoModal._element.addEventListener('hidden.bs.modal', () => {
+                    videoFrame.src = '';
+                });
+            });
+        </script>
+    </body>
+</html>

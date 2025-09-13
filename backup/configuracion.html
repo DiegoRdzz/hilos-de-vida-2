@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hilos de Vida - Configuración de Cuenta</title>
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="assets/fontawesome-free-6.7.2-web/css/all.css">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet">
+        <!-- Core CSS -->
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/configuracion.css" rel="stylesheet">
+    </head>
+
+    <body id="page-top">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/logo2.png" alt="Logo" width="31" height="38" class="d-inline-block align-text-top">
+                    Hilos de Vida
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html#funcion">¿Cómo funciona?</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#beneficios">Beneficios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#contacto">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="producto.html">Comprar</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="configuracion.html"><i class="fas fa-cog"></i> Configuración</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Configuración Section -->
+        <section class="page-section bg-light" style="padding: 7rem 0 3rem;">
+            <div class="container">
+                <div class="row">
+                    <!-- Menú Lateral -->
+                    <div class="col-lg-3 mb-4">
+                        <div class="card shadow-sm border-0">
+                            <div class="card-body">
+                                <div class="text-center mb-4">
+                                    <img src="assets/img/user-avatar.jpg" alt="Avatar" class="rounded-circle mb-3" width="100">
+                                    <h5 class="fw-bold mb-0">Juan Pérez</h5>
+                                    <small class="text-muted">Cliente Premium</small>
+                                </div>
+                                <nav class="nav flex-column">
+                                    <a class="nav-link" href="#perfil">
+                                        <i class="fas fa-user-circle me-2"></i>Perfil
+                                    </a>
+                                    <a class="nav-link" href="#seguridad">
+                                        <i class="fas fa-shield-alt me-2"></i>Seguridad
+                                    </a>
+                                    <a class="nav-link" href="#notificaciones">
+                                        <i class="fas fa-bell me-2"></i>Notificaciones
+                                    </a>
+                                    <a class="nav-link" href="#dispositivos">
+                                        <i class="fas fa-microchip me-2"></i>Dispositivos
+                                    </a>
+                                    <a class="nav-link" href="#facturacion">
+                                        <i class="fas fa-file-invoice me-2"></i>Facturación
+                                    </a>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contenido Principal -->
+                    <div class="col-lg-9">
+                        <!-- Sección Perfil -->
+                        <div class="card shadow-sm border-0 mb-4" id="perfil">
+                            <div class="card-body">
+                                <h4 class="fw-bold mb-4">
+                                    <i class="fas fa-user-circle me-2"></i>Información del Perfil
+                                </h4>
+                                <form>
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <label class="form-label">Nombre</label>
+                                            <input type="text" class="form-control" value="Juan">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="form-label">Apellidos</label>
+                                            <input type="text" class="form-control" value="Pérez">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="form-label">Teléfono</label>
+                                            <input type="tel" class="form-control" value="8112345678">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="form-label">Correo Electrónico</label>
+                                            <input type="email" class="form-control" value="juan@example.com">
+                                        </div>
+                                        <div class="col-12">
+                                            <button type="submit" class="btn btn-primary">
+                                                <i class="fas fa-save me-2"></i>Guardar Cambios
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <!-- Sección Seguridad -->
+                        <div class="card shadow-sm border-0 mb-4" id="seguridad">
+                            <div class="card-body">
+                                <h4 class="fw-bold mb-4">
+                                    <i class="fas fa-shield-alt me-2"></i>Seguridad y Acceso
+                                </h4>
+                                <div class="list-group">
+                                    <a href="#" class="list-group-item list-group-item-action">
+                                        <i class="fas fa-key me-2"></i>Cambiar Contraseña
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action">
+                                        <i class="fas fa-shield-check me-2"></i>Verificación en Dos Pasos
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action">
+                                        <i class="fas fa-history me-2"></i>Actividad Reciente
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Sección Notificaciones -->
+                        <div class="card shadow-sm border-0 mb-4" id="notificaciones">
+                            <div class="card-body">
+                                <h4 class="fw-bold mb-4">
+                                    <i class="fas fa-bell me-2"></i>Preferencias de Notificaciones
+                                </h4>
+                                <form>
+                                    <div class="form-check mb-3">
+                                        <input class="form-check-input" type="checkbox" id="notifEmail" checked>
+                                        <label class="form-check-label" for="notifEmail">
+                                            Recibir notificaciones por correo electrónico
+                                        </label>
+                                    </div>
+                                    <div class="form-check mb-3">
+                                        <input class="form-check-input" type="checkbox" id="notifSMS" checked>
+                                        <label class="form-check-label" for="notifSMS">
+                                            Recibir notificaciones por SMS
+                                        </label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">
+                                        <i class="fas fa-save me-2"></i>Guardar Preferencias
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer bg-secondary text-white text-center py-4">
+            <div class="container">
+                <small class="text-white">&copy; Hilos de Vida 2025 | 
+                    <a href="#" class="text-white text-decoration-none">Políticas de Privacidad</a>
+                </small>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="css/bootstrap.bundle.min.js"></script>
+        <script>
+            // Smooth Scroll
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>
